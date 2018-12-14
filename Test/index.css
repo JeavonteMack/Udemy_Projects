@@ -4,4 +4,58 @@ body{
 .jumbotron{
     background-color: bisque;
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 12px 9px rgb(153, 130, 130);
+}
+h1{
+    text-align: center;
+}
+#title {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(168, 6, 6, 0), rgba(92, 18, 18, 0.75), rgba(141, 9, 9, 0));
+}
+.welcome{
+    padding-left: 20px;
+}
+#email{
+    margin-right: 10px;
+}
+#form{
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 50px 1px blue;
+    padding-top: 5px;
+}
+#userForm{
+    text-align: center;
+    padding-top: 50px;
+}
+.btn{
+    box-shadow: 3px 3px  lightgreen;
+}
+.btn:hover{
+    color: lightgreen;
+    background-color: green;
+}
+
+/* game.html components */
+#gameBanner{
+    margin: 20px;
+}
+#gametext{
+    
+}
+canvas{
+    background-color: aquamarine;
+    width:100%;
+    border: 1px solid black;
+}
+ .btn.btn-primary{
+    box-shadow:  3px 3px lightblue;
+} 
+.btn-primary:hover{
+    color: lightblue;
+    background-color: blue;
 }
